@@ -1,36 +1,26 @@
-# Pokédex Angular
+TUTORIAL PASO A PASO DE CÓMO FUE CREADA LA CUENTA EN LA NUBE PUBLICA USADA.
+A continuacion detallaremos el procedimiento paso a paso utilizado para acceder y validar la cuenta de nube pública en Microsoft Azure a través de las credenciales institucionales otorgadas por la universidad.
 
-[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
-[![codecov](https://codecov.io/gh/keilermora/pokedex-angular/branch/master/graph/badge.svg?token=9E0D28IOFT)](https://codecov.io/gh/keilermora/pokedex-angular)
-[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+Plataforma y Tipo de Cuenta
+Nube Pública: Microsoft Azure. Tipo de Acceso: Cuenta personal / Azure subscription 1 (Credenciales bancarias).
 
-[https://keilermora.github.io/pokedex-angular/](https://keilermora.github.io/pokedex-angular/)
+Paso a Paso para el Acceso a la Cuenta
+Paso 1: Acceso al Portal de Microsoft Azure
 
-La aplicación muestra el listado y el detalle de los Pokémon de las primeras 3 generaciones.
+Ingresar al navegador web e ir al portal oficial de Azure: https://portal.azure.com (o https://azure.microsoft.com/free/students/ si es la primera activación).
+Hacer clic en el botón de Iniciar sesión (Sign In).
 
-La imagen que representa un Pokémon en el listado muestra las variaciones que estos tuvieron durante las primeras versiones, desde la versión Green (1996) hasta la version Emerald (2005).
+Paso 2: Autenticación con Credenciales bancarias (nu bank)
 
-Los detalles de un Pokémon individual muestra sus estadísticas base y los registros de la Pokédex de las diferentes versiones.
+Ingresar el correo electrónico.
+Ingresar la contraseña correspondiente.
 
-El proyecto fue desarrollado usando la librería de JavaScript [Angular](https://angular.io/) para crear la interfaz de usuario, en comunicación con la Api RESTful [PokéAPI](https://pokeapi.co/).
+Paso 3: Autenticación de Doble Factor (MFA)
 
-## Requisitos mínimos
+Aprobar la notificación de seguridad en la aplicación Microsoft Authenticator o ingresar el código enviado por SMS/correo para confirmar la identidad.
 
-- [Nodejs](https://nodejs.org) con soporte de largo plazo (LTS).
-- Un navegador web
+Paso 4: Verificación del Panel Principal (Azure Portal)
 
-## Ambiente de pruebas
-
-Ejecutar en la raíz del proyecto:
-
-```
-npm start
-```
-
-## Referencias
-
-- [Angular](https://angular.io/): One framework.
-- [Angular Folder Structure](https://angular-folder-structure.readthedocs.io/en/latest/): Create a skeleton structure which is flexible for projects big or small.
-- [Font Awesome](https://fontawesome.com/): The web's most popular icon set and toolkit.
-- [Normalize.css](https://necolas.github.io/normalize.css/): A modern, HTML5-ready alternative to CSS resets.
-- [PokéAPI](https://pokeapi.co/): The RESTful Pokémon API.
+Una vez autenticado, el sistema da acceso al Dashboard (Panel de control) de Microsoft Azure.
+Confirmar la suscripción activa (como Azure subscription 1 ) dirigiéndose a la sección de Suscripciones (Subscriptions) en la barra de búsqueda superior.
+Con este procedimiento la cuenta queda lista para la creación de recursos y para el despliegue del proyecto PokeDex.
